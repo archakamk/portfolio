@@ -28,11 +28,14 @@ a:hover {
 }
 
 body {
+  @apply bg-olive-dark text-off-white font-sans min-h-screen;
   margin: 0;
+  padding: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  height: 100%;
 }
 
 h1 {
